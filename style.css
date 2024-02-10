@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  background-color: #0e2d53;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #d1e0f0;
+  color: #d1e0f0;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  background-color: #485360;
+}
+
+button {
+  margin-top: 10px;
+  background: #d1e0f0;
+  color: #0e2d53;
+  padding: 10px 20px;
+  border: 1px solid #d1e0f0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  font-size: 0.81rem;
+  cursor: pointer;
+}
+
+.delete {
+  margin-top: 10px;
+  color: #d1e0f0;
+  background: #0e2d53;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.delete:hover {
+  font-size: 0.81rem;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: "💀 ";
+  padding-left: 25px;
+  color: white;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: #d1e0f0;
+  text-decoration: underline;
+  padding-right: 95px;
+}
+
+a:hover {
+  color: #7d97a7;
+  text-decoration: none;
+}
+
+.edit-btn {
+  padding: 5px 8px 5px 8px;
+  font-size: 0.7rem;
+}
+
+.edit-btn:hover {
+  background-color: transparent;
+  color: #d1e0f0;
+  font-size: 0.7rem;
+}
+
+.delete-btn {
+  padding: 6.78px 5px 5.5px 5px;
+  font-size: 0.7rem;
+}
+
+.delete-btn:hover {
+  background-color: transparent;
+  color: #d1e0f0;
+  font-size: 0.7rem;
+}
